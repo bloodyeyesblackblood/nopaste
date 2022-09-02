@@ -19,7 +19,7 @@ body {
     flex-flow: column;
     color: #fff;
 	    font-family:  var(--default-font) !important;
-    background-color: #282a36;
+    background-color:  var(--bg-color);
 }
 * {
     font-variant-ligatures: none;
