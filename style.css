@@ -4,6 +4,8 @@
 	--default-font: Arial;
 }
 
+
+
 pre {
 	    font-family:  var(--default-font) !important;
 }
@@ -36,6 +38,12 @@ body {
     flex-grow: 1;
     margin-top: -3px;
     overflow: auto;
+}
+
+#controls {
+	float: left !important;
+	display: flex;
+
 }
 
 #controls,
@@ -147,10 +155,10 @@ h1 {
 button,
 input[type='text'],
 input[type='search'] {
-    background-color: #3b3b47 !important;
+    background-color:  var(--bg-color) !important;
     color: #fff !important;
     border-radius: 6px !important;
-    border: 0 #ccc !important;
+    border: 0 !important;
     font-family:  var(--default-font);
     height: 26px !important;
 }
