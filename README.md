@@ -1,4 +1,10 @@
+### [BLOODYEYESBLACKBLOOD's Downgraded Version](https://paste.bloodyeyes.xyz/) Of NoPaste.
+![image](https://user-images.githubusercontent.com/108025342/188214108-768c218a-8879-4d5a-9771-e47803f89aa1.png)
+
+[NoPaste's](https://nopaste.ml/) Default Version:
 [![Intro](https://github.com/bokub/nopaste/raw/images/intro.png)][intro-img]
+
+
 
 # What is NoPaste?
 
