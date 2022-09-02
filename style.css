@@ -1,5 +1,4 @@
 /* App layout */
-
 :root {
 	--bg-color: #1c1c1c;
 	--default-font: Arial;
@@ -9,6 +8,9 @@ pre {
 	    font-family:  var(--default-font) !important;
 }
 
+.cm-s-dracula .CodeMirror-gutters, .cm-s-dracula.CodeMirror {
+    background-color: var(--bg-color) !important;
+}
 
 html,
 body {
@@ -18,9 +20,14 @@ body {
     display: flex;
     flex-flow: column;
     color: #fff;
-	    font-family:  var(--default-font) !important;
+    font-family:  var(--default-font) !important;
     background-color:  var(--bg-color);
 }
+
+.CodeMirror-line:hover {
+	background-color:  gray  !important;
+}
+
 * {
     font-variant-ligatures: none;
 }
@@ -31,14 +38,10 @@ body {
     overflow: auto;
 }
 
-.CodeMirror-line:hover {
-	background-color:  gray  !important;
-}
-
 #controls,
 #copy,
 footer {
-    background-color: #3b3b47;
+    background-color: black;
     z-index: 10;
 }
 
@@ -59,7 +62,7 @@ body.readonly:not(:hover) #footer {
 }
 
 #copy-link {
-	    font-family:  var(--default-font) !important;
+    font-family:  var(--default-font);
     width: 100%;
 }
 
@@ -87,14 +90,14 @@ a:focus {
 
 .CodeMirror {
     height: 100%;
-	    font-family:  var(--default-font) !important;
+    font-family:  var(--default-font);
 }
 h1 {
-	    font-family:  var(--default-font) !important;
+    font-family:  var(--default-font);
     white-space: nowrap;
 }
 .mono {
-	    font-family:  var(--default-font) !important;
+   font-family:  var(--default-font);
 }
 .pink {
     color: #ff79c6;
@@ -146,8 +149,8 @@ input[type='text'],
 input[type='search'] {
     background-color: #3b3b47 !important;
     color: #fff !important;
-    border-radius: 6px !important;
-    border: 0px #ccc !important;
+    border-radius: 2px !important;
+    border: 1px solid #ccc !important;
     font-family:  var(--default-font);
     height: 26px !important;
 }
@@ -175,4 +178,3 @@ button:hover {
 .ss-content .ss-disabled {
     background-color: #3b3b47 !important;
 }
-
