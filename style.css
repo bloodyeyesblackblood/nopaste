@@ -150,9 +150,7 @@ input[type='search'] {
     background-color: #3b3b47 !important;
     color: #fff !important;
     border-radius: 6px !important;
-    border: 0px #ccc !important;
-    border-radius: 2px !important;
-    border: 1px solid #ccc !important;
+    border: 0 #ccc !important;
     font-family:  var(--default-font);
     height: 26px !important;
 }
